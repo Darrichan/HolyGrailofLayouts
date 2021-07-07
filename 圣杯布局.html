@@ -50,6 +50,12 @@
             clear: both;
             background-color: #f1f1f1;
         }
+
+        .clearfix::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
     </style>
     <h1>实现圣杯布局</h1>
     <div id="header">Header</div>
